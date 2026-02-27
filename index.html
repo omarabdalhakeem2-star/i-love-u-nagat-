@@ -1,0 +1,165 @@
+<!-- START: Password Protection -->
+<div id="loginBox" style="text-align:center; margin-top:100px;">
+  <h2>ادخلي الباسورد 💌</h2>
+  <input type="password" id="password" placeholder="Password" style="padding:10px;border-radius:10px;border:none;text-align:center;">
+  <br>
+  <button onclick="checkPassword()" style="padding:10px 20px;border-radius:10px;border:none;background-color:#ff4b5c;color:white;cursor:pointer;margin-top:10px;">دخول</button>
+</div>
+
+<div id="content" style="display:none;">
+  <!-- هنا تحط المحتوى اللي عايزه يظهر بعد الباسورد -->
+   <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>نجاة ❤️</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&display=swap" rel="stylesheet"/>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Cairo",sans-serif;}
+body{background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);color:#fff;overflow-x:hidden;position:relative;}
+
+/* قلوب الخلفية */
+.bg-heart{position:fixed;bottom:-20px;color:#ff4d6d;font-size:20px;animation:floatUp linear infinite;opacity:0.7;z-index:0;}
+@keyframes floatUp{0%{transform:translateY(0);opacity:1;}100%{transform:translateY(-110vh);opacity:0;}}
+
+/* Header */
+header{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;z-index:2;position:relative;}
+header h1{font-size:4rem;color:#ff4d6d;animation:glow 2s infinite alternate;}
+@keyframes glow{from{text-shadow:0 0 10px #ff4d6d;}to{text-shadow:0 0 30px #ff758f;}}
+header p{margin-top:20px;font-size:1.3rem;}
+
+/* Sections */
+section{padding:80px 10%;position:relative;z-index:2;}
+section h2{font-size:2.5rem;margin-bottom:30px;color:#ffb3c6;text-align:center;}
+.story{background:rgba(255,255,255,0.05);border-radius:20px;padding:40px;line-height:2;box-shadow:0 0 30px rgba(0,0,0,0.4);}
+
+/* Gallery */
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;}
+.gallery img{width:100%;height:260px;object-fit:cover;border-radius:20px;transition:0.6s;animation:romanticFloat 4s ease-in-out infinite;box-shadow:0 0 20px rgba(255,105,180,0.4);cursor:pointer;}
+.gallery img:hover{transform:scale(1.08);box-shadow:0 0 35px rgba(255,105,180,0.8);}
+@keyframes romanticFloat{0%{transform:translateY(0px);}50%{transform:translateY(-12px);}100%{transform:translateY(0px);}}
+
+/* Image Viewer */
+#imageViewer{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.9);display:none;justify-content:center;align-items:center;z-index:999;}
+#imageViewer img{max-width:80%;max-height:80%;border-radius:25px;box-shadow:0 0 40px rgba(255,0,100,0.7);animation:fadeIn 0.5s ease;}
+@keyframes fadeIn{from{opacity:0; transform:scale(0.8);}to{opacity:1; transform:scale(1);}}
+
+/* Big Heart Section */
+.big-heart-section{text-align:center;}
+.big-heart{font-size:180px;animation:pulse 1.5s infinite;}
+@keyframes pulse{0%{transform:scale(1);}50%{transform:scale(1.2);}100%{transform:scale(1);}}
+#loveTime{margin-top:20px;font-size:1.4rem;color:#ffccd5;}
+
+/* Button */
+.btn{margin-top:30px;padding:15px 40px;background:#111;color:#ff4d6d;border-radius:50px;font-size:1.1rem;cursor:pointer;border:none;transition:0.3s;}
+.btn:hover{background:#fff;transform:scale(1.1);}
+
+footer{text-align:center;padding:30px;background:rgba(0,0,0,0.4);font-size:0.9rem;opacity:0.8;}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>نجاة ❤️</h1>
+<p>مش موقع عادي… ده حكاية حب مكتوبة من قلبي ليكي</p>
+</header>
+
+<section>
+<h2>حكايتنا</h2>
+<div class="story">
+كل سنه و انت طيبه يا اجمل اخيار اختره في حياتي بحبك رغم كل الزعل الي بينا و مش عرف اكرهك في حياتي دي كلها و حافظ عليكي اكتر من نفسي يا اجمل قلب وروح وعقل و تفكير انا حبيتو في حياتي دي كلها و مفيش يوم عدا غير لما اكون قلقان عليكي و بفكر فيكي و مفيش صلاه والله عدد غير لما بتعيلك من قلبي و بنسا نفسي ساعات بس بحبك في الحلو بتاعك والوحيش بتاعك مش عارف ازعل منك خالص وبس ساعات بدايق بس بعدي بس بجد يروحي انتي وحشتيني اوي وحشتيني والله اويييي بخاف اخسرك ومش عاوز اخسرك انتي اغلا حاجه منسبالي و مش هاعرف احب من بعدك ولو عليا اجبلك حتي من القمر هجبهالك و انا مش ذي اي حد انت عرفتي و انا والله علي قد كل وعد اتدهولك لحد دلوقتي و والله مش بقلك الكلام دخ صعبنيات ولا حاجه بس بقلهولك علشان ده الي في قلبي قلبي الي عمره م قسي عليكي ولو لمره  بحبك علي كل حلاتك وحشتيني     كل سنه وانت طيبه ياجمل بنت عرفتهاااا
+</div>
+</section>
+
+<section>
+<h2>ذكرياتنا 📸</h2>
+<div class="gallery">
+<img src="https://github.com/omarabdalhakeem2-star/u-my-best/blob/main/WhatsApp%20Image%202026-02-27%20at%209.37.39%20PM%20(1).jpeg?raw=true">
+<img src="https://github.com/omarabdalhakeem2-star/u-my-best/blob/main/WhatsApp%20Image%202026-02-27%20at%209.37.39%20PM%20(2).jpeg?raw=true">
+<img src="https://github.com/omarabdalhakeem2-star/u-my-best/blob/main/WhatsApp%20Image%202026-02-27%20at%209.37.39%20PM.jpeg?raw=true">
+<img src="https://github.com/omarabdalhakeem2-star/u-my-best/blob/main/WhatsApp%20Image%202026-02-27%20at%209.37.44%20PM.jpeg?raw=true">
+
+</section>
+
+<section class="big-heart-section">
+<h2>من يوم ما حبيتك 💞</h2>
+<div class="big-heart">❤️</div>
+<div id="loveTime"></div>
+</section>
+
+<section>
+<h2>رسالة ليكي</h2>
+<div class="story" style="text-align:center;">
+كل سنه و تنت طيبه❤️ أنا ناوي أكون قد المسؤولية، وأثبتلك إن اختياري ليكي كان من قلبي بجد ❤️
+<br> 
+<button class="btn" onclick="showLove()">دوسي هنا</button>
+</div>
+</section>
+
+<footer>معمول بحب ❤️ | 2026</footer>
+
+<div id="imageViewer" onclick="closeImage()">
+<img id="viewerImg">
+</div>
+
+<script>
+/* قلوب الخلفية */
+function createHeart(){
+const heart=document.createElement("div");
+heart.classList.add("bg-heart");
+heart.innerHTML="❤️";
+heart.style.left=Math.random()*100+"vw";
+heart.style.fontSize=(15+Math.random()*25)+"px";
+heart.style.animationDuration=(4+Math.random()*4)+"s";
+document.body.appendChild(heart);
+setTimeout(()=>{heart.remove();},7000);
+}
+setInterval(createHeart,300);
+
+/* عداد الحب */
+let loveDate=new Date("2025-10-01 00:00:00"); // غير التاريخ لو تحب
+function updateLoveTime(){
+let now=new Date();
+let diff=now-loveDate;
+let days=Math.floor(diff/(1000*60*60*24));
+let hours=Math.floor((diff/(1000*60*60))%24);
+let minutes=Math.floor((diff/(1000*60))%60);
+let seconds=Math.floor((diff/1000)%60);
+document.getElementById("loveTime").innerHTML=
+days+" يوم ❤️ "+hours+" ساعة 💕 "+minutes+" دقيقة 💗 "+seconds+" ثانية";
+}
+setInterval(updateLoveTime,1000);
+updateLoveTime();
+
+/* تكبير الصورة */
+function openImage(img){
+document.getElementById("imageViewer").style.display="flex";
+document.getElementById("viewerImg").src=img.src;
+}
+function closeImage(){document.getElementById("imageViewer").style.display="none";}
+
+/* زرار الحب */
+function showLove(){alert("بحبك يا نجاة ❤️");}
+</script>
+
+</body>
+</html>
+</div>
+
+<script>
+function checkPassword() {
+  var pass = document.getElementById("password").value;
+  if(pass === "nagat") {   // هنا الباسورد هو "nagat"
+    document.getElementById("loginBox").style.display = "none";
+    document.getElementById("content").style.display = "block";
+  } else {
+    alert("الباسورد غلط 😅");
+  }
+}
+</script>
+
+<!-- END: Password Protection -->
